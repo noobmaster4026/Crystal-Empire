@@ -1,0 +1,9 @@
+Assigning IP address:
+For Solar_Palace:
+enable
+erase startup-config
+reload
+hostname Solar_Palace
+interface fastEthernet 0/0
+ip address 18.69.39.129 255.255.255.192
+no shutdown
